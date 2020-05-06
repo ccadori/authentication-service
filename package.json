@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Carlos Cadori",
   "license": "ISC",
@@ -17,5 +17,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.10",
     "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1"
   }
 }
